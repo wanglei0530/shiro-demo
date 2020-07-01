@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>main</title>
+</head>
+<body>
+    login success user name is : <h1 th:text="${param.un}"></h1>
+
+    pub: <a href="anon/pub?param=pub">pub</a></body></br>
+    add user: <a href="user/add?param=add">add</a></body></br>
+    mod user: <a href="user/mod?param=mod">mod</a></body></br>
+    query user: <a href="user/query?param=query">query</a></body></br>
+    delete user: <a href="user/delete?param=delete">delete</a></body></br>
+    <a href="logout">退出</a>
+</body>
+</html>

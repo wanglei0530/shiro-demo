@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<H3>login page</H3>
+<div>
+    <font color="red" th:text="${msg}"></font>
+</div>
+
+<form method="post" action="tologin">
+    用户名：<input type="text" name="un"></br>
+    密码：<input type="password" name="pwd"></br>
+    <input type="submit" value="登录">
+</form>
+
+</body>
+</html>
